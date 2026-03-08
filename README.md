@@ -16,7 +16,7 @@ python -m venv venv
 source venv/bin/activate
 
 # 3. Install FastAPI + server
-pip install fastapi uvicorn python-dotenv
+pip install -r requirements.txt
 
 # 4. Save dependencies
 pip freeze > requirements.txt
